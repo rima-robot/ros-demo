@@ -51,7 +51,7 @@ def callback(data):
 
 
 def get_ans(info):
-    key = 'f81e8b7e3f121b934c7c43de66f6aee4'
+    key = '###################此处为key#################'
     api = 'http://www.tuling123.com/openapi/api?key=' + key + '&info='
     request = api + info
     response = getHtml(request)
